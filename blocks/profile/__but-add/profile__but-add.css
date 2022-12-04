@@ -1,4 +1,4 @@
-.profile__but-right {
+.profile__but-add {
     margin: 0 0 36px auto;
     padding: 23px 73px;
     background-image: url(../../../img/plus.png);
@@ -11,12 +11,12 @@
     cursor: pointer;
 }
 
-.profile__but-right:hover {
+.profile__but-add:hover {
     opacity: 0.6;
 }
 
 @media screen and (max-width: 1024px){
-    .profile__but-right {
+    .profile__but-add {
         margin: 0 auto;
         padding: 23px 139px;
     }

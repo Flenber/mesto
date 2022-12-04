@@ -1,4 +1,4 @@
-.profile__modal_title {
+.profile__modal-title {
     margin: 34px 0 54px 36px;
     color: black;
     font-size: 24px;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 768px){
-    .profile__modal_title {
+    .profile__modal-title {
         font-size: 18px;
         line-height: 22px;
         margin: 25px 22px 75px;

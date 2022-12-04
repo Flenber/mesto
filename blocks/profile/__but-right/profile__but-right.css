@@ -1,0 +1,23 @@
+.profile__but-right {
+    margin: 0 0 36px auto;
+    padding: 23px 73px;
+    background-image: url(../../../img/plus.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 22px;
+    height: 22px;
+    background-color: black;
+    border: 2px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.profile__but-right:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 1024px){
+    .profile__but-right {
+        margin: 0 auto;
+        padding: 23px 139px;
+    }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesto</title>
+    <script async src="./script.js"></script>
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="body">
+    <header class="header">
+        <div class="header__logo"></div>
+    </header>
+    <main class="main">
+        <section class="profile">
+            <img src="./img/jac.png" alt="Жак-Ив" class="profile__img">
+            <div class="profile__text">
+                <h1 class="profile__title">Жак-Ив Кусто</h1>
+                <button class="profile__but-edit"></button>
+                <p class="profile__subt">Исследователь океана</p>
+            </div>
+                <button class="profile__but-right"></button>
+                <div class="profile__overlay">
+                    <form class="profile__modal">
+                        <h3 class="profile__modal_title">Редактировать профиль</h3>
+                        <input class="profile__modal_input profile__modal_name" type="text" placeholder="имя">
+                        <input class="profile__modal_input profile__modal_prof" type="text" placeholder="деятельность">
+                        <button class="profile__modal_save" type="submit">Сохранить</button>
+                        <button class="profile__modal_close"></button>
+                    </form>
+                </div>
+        </section>
+        <section class="elements">
+            <div class="elements__group">
+                <img src="./img/карачаевск.png" alt="карачаевск" class="elements__img">
+                <div class="elements__info">
+                    <h2 class="elements__title">Карачаевск</h2>
+                    <button class="elements__like"></button>
+                </div>
+            </div>
+            <div class="elements__group">
+                <img src="./img/гора эльбрус.png" alt="Гора Эльбрус" class="elements__img">
+                <div class="elements__info">
+                    <h2 class="elements__title">Гора Эльбрус</h2>
+                    <button class="elements__like"></button>
+                </div>
+            </div>
+            <div class="elements__group">
+                <img src="./img/домбай.png" alt="Домбай" class="elements__img">
+                <div class="elements__info">
+                    <h2 class="elements__title">Домбай</h2>
+                    <button class="elements__like"></button>
+               </div>
+            </div>
+            <div class="elements__group">
+                <img src="./img/карачаевск.png" alt="карачаевск" class="elements__img">
+                <div class="elements__info">
+                    <h2 class="elements__title">Карачаевск</h2>
+                    <button class="elements__like"></button>
+                </div>
+            </div>
+            <div class="elements__group">
+                <img src="./img/гора эльбрус.png" alt="Гора Эльбрус" class="elements__img">
+                <div class="elements__info">
+                    <h2 class="elements__title">Гора Эльбрус</h2>
+                    <button class="elements__like"></button>
+                </div>
+            </div>
+            <div class="elements__group">
+                <img src="./img/домбай.png" alt="Домбай" class="elements__img">
+                <div class="elements__info">
+                    <h2 class="elements__title">Домбай</h2>
+                    <button class="elements__like"></button>
+               </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">&#169; 2020 Mesto Russia</footer>
+</body>
+</html>

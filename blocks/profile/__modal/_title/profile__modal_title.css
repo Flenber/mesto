@@ -1,0 +1,15 @@
+.profile__modal_title {
+    margin: 34px 0 54px 36px;
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+}
+
+@media screen and (max-width: 768px){
+    .profile__modal_title {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 25px 22px 75px;
+    }
+}

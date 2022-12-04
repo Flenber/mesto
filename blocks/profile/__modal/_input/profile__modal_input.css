@@ -1,0 +1,14 @@
+.profile__modal_input {
+    margin: 0 auto 30px;
+    padding: 0 0 13px;
+    width: 358px;
+    height: 14px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px){
+    .profile__modal_input {
+        width: 238px;
+    }
+}

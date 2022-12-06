@@ -13,6 +13,6 @@
 @media screen and (max-width: 768px){
         .modal__name {
             margin: 75px auto 25px;
-            width: 238px
+            width: 238px;
         }
     }

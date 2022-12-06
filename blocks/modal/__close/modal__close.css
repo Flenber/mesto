@@ -1,9 +1,9 @@
-.profile__modal-close {
+.modal__close {
     padding: 0;
     position: absolute;
     top: -35px;
     right: -35px;
-    background-image: url(../../../../img/Close.svg);
+    background-image: url(../../../img/Close.svg);
     background-color: rgba(0, 0, 0, 0);
     border: none;
     width: 32px;
@@ -11,6 +11,6 @@
     cursor: pointer;
 }
 
-.profile__modal-close:hover {
+.modal__close:hover {
     opacity: 0.6;
 }

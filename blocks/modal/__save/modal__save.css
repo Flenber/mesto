@@ -1,7 +1,7 @@
-.profile__modal-save {
-    margin: 18px 36px 37px;
+.modal__save {
+    margin: 48px auto 37px;
     padding: 0;
-    max-width: 358px;
+    width: 358px;
     height: 50px;
     border: none;
     background-color: black;
@@ -13,13 +13,16 @@
     border-radius: 2px;
 }
 
-.profile__modal-save:hover {
+.profile__modal-modal__save:hover {
     opacity: 0.8;
 }
 
 @media screen and (max-width: 768px){
-    .profile__modal-save {
+    .modal__save {
+        margin: 45px auto 25px;
         font-size: 14px;
         line-height: 17px;
+        width: 236px;
+        height: 48px;
     }
 }

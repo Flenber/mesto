@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mesto</title>
-    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="body">
@@ -17,66 +16,66 @@
             <img src="./img/jac.png" alt="Жак-Ив" class="profile__img">
             <div class="profile__text">
                 <h1 class="profile__title">Жак-Ив Кусто</h1>
-                <button class="profile__but-edit"></button>
-                <p class="profile__subt">Исследователь океана</p>
+                <button class="profile__button-edit" type="button"></button>
+                <p class="profile__subtitle">Исследователь океана</p>
             </div>
-                <button class="profile__but-add"></button>
-                <div class="profile__overlay">
-                    <form class="profile__modal">
-                        <h3 class="profile__modal-title">Редактировать профиль</h3>
-                        <input class="profile__modal-input profile__modal-name" type="text" placeholder="имя">
-                        <input class="profile__modal-input profile__modal-prof" type="text" placeholder="деятельность">
-                        <button class="profile__modal-save" type="submit">Сохранить</button>
-                        <button class="profile__modal-close"></button>
-                    </form>
-                </div>
+            <button class="profile__button-add" type="button"></button>
         </section>
         <section class="elements">
             <div class="elements__group">
                 <img src="./img/карачаевск.png" alt="карачаевск" class="elements__img">
                 <div class="elements__info">
-                    <h2 class="elements__title">Карачаевск</h2>
-                    <button class="elements__like"></button>
+                    <h3 class="elements__title">Карачаевск</h3>
+                    <button class="elements__like" type="button"></button>
                 </div>
             </div>
             <div class="elements__group">
                 <img src="./img/эльбрус.png" alt="Гора Эльбрус" class="elements__img">
                 <div class="elements__info">
-                    <h2 class="elements__title">Гора Эльбрус</h2>
-                    <button class="elements__like"></button>
+                    <h3 class="elements__title">Гора Эльбрус</h3>
+                    <button class="elements__like" type="button"></button>
                 </div>
             </div>
             <div class="elements__group">
                 <img src="./img/домбай.png" alt="Домбай" class="elements__img">
                 <div class="elements__info">
-                    <h2 class="elements__title">Домбай</h2>
-                    <button class="elements__like"></button>
+                    <h3 class="elements__title">Домбай</h3>
+                    <button class="elements__like" type="button"></button>
                </div>
             </div>
             <div class="elements__group">
                 <img src="./img/карачаевск.png" alt="карачаевск" class="elements__img">
                 <div class="elements__info">
-                    <h2 class="elements__title">Карачаевск</h2>
-                    <button class="elements__like"></button>
+                    <h3 class="elements__title">Карачаевск</h3>
+                    <button class="elements__like" type="button"></button>
                 </div>
             </div>
             <div class="elements__group">
                 <img src="./img/эльбрус.png" alt="Гора Эльбрус" class="elements__img">
                 <div class="elements__info">
-                    <h2 class="elements__title">Гора Эльбрус</h2>
-                    <button class="elements__like"></button>
+                    <h3 class="elements__title">Гора Эльбрус</h3>
+                    <button class="elements__like" type="button"></button>
                 </div>
             </div>
             <div class="elements__group">
                 <img src="./img/домбай.png" alt="Домбай" class="elements__img">
                 <div class="elements__info">
-                    <h2 class="elements__title">Домбай</h2>
-                    <button class="elements__like"></button>
+                    <h3 class="elements__title">Домбай</h3>
+                    <button class="elements__like" type="button"></button>
                </div>
             </div>
         </section>
     </main>
-    <footer class="footer">&#169; 2020 Mesto Russia</footer>s
-    <script src="./script.js"></script>
+    <footer class="footer">&#169; 2020 Mesto Russia</footer>
+    <div class="overlay">
+        <form class="modal" name="popup">
+            <h3 class="modal__title">Редактировать профиль</h3>
+            <input class="modal__name" type="text" placeholder="имя" name="name">
+            <input class="modal__prof" type="text" placeholder="деятельность" name="prof">
+            <button class="modal__save" type="submit">Сохранить</button>
+            <button class="modal__close" type="button"></button>
+        </form>
+    </div>
+    <script src="./script/script.js"></script>
 </body>
 </html>

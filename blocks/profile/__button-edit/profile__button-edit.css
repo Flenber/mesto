@@ -1,23 +1,23 @@
-.profile__but-edit {
-    margin: 0;
+.profile__button-edit {
+    margin: 10px 0 0;
     padding: 0;
-    background-image: url(../../../img/pen.png);
+    background-image: url(../../../img/pen.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;
     background-size: 10px 10px;
     width: 24px;
     height: 24px;
-    border: 2px solid white;
+    border: 1px solid #FFF;
     cursor: pointer;
 }
 
-.profile__but-edit:hover {
+.profile__button-edit:hover {
     opacity: 0.6;
 }
 
 @media screen and (max-width: 1024px){
-    .profile__but-edit {
+    .profile__button-edit {
         margin: auto 0;
         width: 18px;
         height: 18px;

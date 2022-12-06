@@ -1,11 +1,3 @@
 .elements__like_active {
-    margin: 0 20px 0 0;
-    padding: 0;
-    border: none;
     background-image: url(../../../../img/likeactive.svg);
-    background-repeat: no-repeat;
-    background-color: white;
-    width: 22px;
-    height: 19px;
-    cursor: pointer;
 }

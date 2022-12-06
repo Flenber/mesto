@@ -1,5 +1,5 @@
 const btn = document.querySelector('.profile__button-edit');
-const overlay = document.querySelector('.overlay');
+const overlay = document.querySelector('.popup');
 const closePopup = document.querySelector('.modal__close');
 const name = document.querySelector('.profile__title');
 const subTitle = document.querySelector('.profile__subtitle');
@@ -7,14 +7,14 @@ const nameinput = document.querySelector('.modal__name');
 const profinput = document.querySelector('.modal__prof');
 const btnSave = document.querySelector('.modal__save');
 const formElement = document.querySelector('.profile__modal-input');
-const popup = document.querySelector('.modal');
+const popup = document.querySelector('.modal__form');
 
 function closeOverlay(){
-    overlay.classList.remove('overlay__open');
+    overlay.classList.remove('popup_open');
 }
 
 btn.addEventListener('click', function(){
-    overlay.classList.add('overlay__open');
+    overlay.classList.add('popup_open');
     nameinput.value = name.textContent;
     profinput.value = subTitle.textContent;
 })
@@ -29,7 +29,7 @@ function handleFormSubmit(evt) {
 popup.addEventListener('submit', handleFormSubmit);
 
 closePopup.addEventListener('click', function(){
-    overlay.classList.remove('overlay__open')
+    closeOverlay()
 })
 
 overlay.addEventListener('click', function(event){

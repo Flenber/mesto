@@ -1,0 +1,16 @@
+.modal__text {
+    padding: 0 0 13px;
+    width: 358px;
+    height: 14px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+@media screen and (max-width: 768px){
+    .modal__text {
+        width: 238px;
+    }
+}

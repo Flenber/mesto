@@ -67,15 +67,17 @@
         </section>
     </main>
     <footer class="footer">&#169; 2020 Mesto Russia</footer>
-    <div class="overlay">
-        <form class="modal" name="popup">
-            <h3 class="modal__title">Редактировать профиль</h3>
-            <input class="modal__name" type="text" placeholder="имя" name="name">
-            <input class="modal__prof" type="text" placeholder="деятельность" name="prof">
-            <button class="modal__save" type="submit">Сохранить</button>
-            <button class="modal__close" type="button"></button>
-        </form>
+    <div class="popup">
+        <div class="modal">
+            <form class="modal__form" name="popup">
+                <h3 class="modal__title">Редактировать профиль</h3>
+                <input class="modal__name modal__text" type="text" placeholder="имя" name="name">
+                <input class="modal__prof modal__text" type="text" placeholder="деятельность" name="prof">
+                <button class="modal__save" type="submit">Сохранить</button>
+                <button class="modal__close" type="button"></button>
+            </form>
+        </div>
     </div>
-    <script src="./script/script.js"></script>
+    <script src="./scripts/script.js"></script>
 </body>
 </html>

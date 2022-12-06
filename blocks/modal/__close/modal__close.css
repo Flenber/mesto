@@ -9,8 +9,18 @@
     width: 32px;
     height: 32px;
     cursor: pointer;
+    background-size: 100% 100%;
 }
 
 .modal__close:hover {
     opacity: 0.6;
+}
+
+@media screen and (max-width: 768px){
+    .modal__close {
+        width: 20px;
+        height: 20px;
+        right: 0;
+        top: -36px;
+    }
 }

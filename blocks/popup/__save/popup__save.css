@@ -1,4 +1,4 @@
-.modal__save {
+.popup__save {
     margin: 48px auto 37px;
     padding: 0;
     width: 358px;
@@ -13,12 +13,12 @@
     border-radius: 2px;
 }
 
-.modal__save:hover {
+.popup__save:hover {
     opacity: 0.8;
 }
 
 @media screen and (max-width: 768px){
-    .modal__save {
+    .popup__save {
         margin: 45px auto 25px;
         font-size: 14px;
         line-height: 17px;

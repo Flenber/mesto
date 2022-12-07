@@ -1,9 +1,0 @@
-.modal__name {
-    margin: 54px auto 30px;
-}
-
-@media screen and (max-width: 768px){
-        .modal__name {
-            margin: 75px auto 25px;
-        }
-    }

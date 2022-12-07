@@ -1,4 +1,4 @@
-.modal__form {
+.popup__form {
     position: absolute;
     width: 430px;
     left: 50%;
@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width: 768px){
-    .modal__form {
+    .popup__form {
         width: 282px;
     }
 }

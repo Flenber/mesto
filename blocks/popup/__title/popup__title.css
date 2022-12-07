@@ -1,4 +1,4 @@
-.modal__title {
+.popup__title {
     margin: 34px auto 0;
     width: 358px;
     color: black;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 768px){
-    .modal__title {
+    .popup__title {
         margin: 25px auto 0;
         width: 238px;
         font-size: 18px;

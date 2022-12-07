@@ -1,4 +1,4 @@
-.popup_text {
+.popup__name_text {
     padding: 0 0 13px;
     width: 358px;
     height: 14px;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 768px){
-    .popup_text {
+    .popup__name_text {
         width: 238px;
     }
 }
